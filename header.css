@@ -1,0 +1,186 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 460px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Account Settings Section */
+.account-settings h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+}
+
+/* CSS for styling the sidebar */
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;            
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar li {            
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar li:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.logout-link {
+    color: #383838;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.profile-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.order-history h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
