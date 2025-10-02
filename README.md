@@ -43,7 +43,7 @@ A comprehensive web application for managing cyber cafe operations, customer rec
 
 1. **Clone or Download the Project**
    ```bash
-   git clone [????]
+   git clone [https://github.com/garanaibrahim7/Cyber-Cafe-Document-and-Customer-Management]
    ```
 
 2. **Database Setup**
